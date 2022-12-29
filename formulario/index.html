@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fomulário</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <form action="">
+            <fieldset>
+                <h3>Nos dê seu feedback</h3>
+                <br>
+                <!-- Input area -->
+                <div class="input-area">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome..." required>
+                </div>
+                <br>
+                <div class="input-area">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome..." required>
+                </div>
+                <br>
+                <div class="input-area">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email..." required>
+                </div>
+
+                <br><br>
+
+                <!-- Radio area -->
+
+                <h4>Como foi sua experiência?</h4>
+                <br>
+                <input type="radio" name="experiencia" id="bom">
+                <label for="bom">Boa</label>
+                <br>
+                
+                <input type="radio" name="experiencia" id="razoavel">
+                <label for="razoavel">Razoável</label>
+                <br>
+                
+                <input type="radio" name="experiencia" id="ruim">
+                <label for="ruim">Ruim</label>
+                <br>
+                <br>
+                <!-- Suggestion area -->
+
+                <label for="text-a" class="sugesa">Deixe sua sugestão</label>
+                <textarea name="sugestao" id="text-a" rows="4"></textarea>
+                <br>
+                <br>
+
+                <!-- Submit area -->
+                <input type="submit" name="submit" id="submit" value="Enviar >">
+
+            </fieldset>
+        </form>
+    </div>
+</html>

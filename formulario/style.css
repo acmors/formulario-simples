@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    font-family:'Inter', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.container {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 7px;
+    width: 20%;
+}
+
+fieldset h3 {
+    font-weight: 700;
+}
+
+fieldset {
+    border: none;
+}
+
+.input-area label {
+    font-weight: 500;
+}
+
+.input-area input {
+    border: none;
+    border-radius: 2px;
+    height: 28px;
+    padding: 5px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#submit {
+    align-items: center;
+    justify-content: center;
+    border: none;
+    height: 25px;
+    width: 60px;
+    border-radius: 8px;
+    font-weight: 400;
+}
+
+.suges {
+    font-weight: 600;
+}
